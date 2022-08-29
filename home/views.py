@@ -7,7 +7,7 @@ from blog.views import post_detail
 
 
 def index(request):
-    post = Post.objects.last()
+    post = Post.objects.last
     post1 = {'Post': post 
     }
     return render(request, 'home/index.html', post1)
