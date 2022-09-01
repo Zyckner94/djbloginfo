@@ -79,7 +79,7 @@
           <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
           </a>
-          <p class="text-muted">&copy; 2022</p>
+          <p class="text-muted">CÁMARA DE COMERCIO DE VILLA ANGELA 2022</p>
         </div>
     
         <div class="col mb-3">
@@ -90,9 +90,9 @@
           <h5>Menu</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CCVA</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acerca de Nosotros</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Iniciar Sesion</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'post_list' %}" class="nav-link p-0 text-muted">Blog</a></li>
+            <li class="nav-item mb-2"><a href="/sobre_nosotros/sobre_nosotros/" class="nav-link p-0 text-muted">Acerca de Nosotros</a></li>
+            <li class="nav-item mb-2"><a href="{% url 'login' %}" class="nav-link p-0 text-muted">Iniciar Sesion</a></li>
           </ul>
         </div>
     
@@ -108,7 +108,7 @@
         <div class="col mb-3">
           <h5>Mas</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Consultas</a></li>
+            <li class="nav-item mb-2"><a href="/contact/contact" class="nav-link p-0 text-muted">Consultas</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Consultas1</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Consultas2</a></li>
         </div>
