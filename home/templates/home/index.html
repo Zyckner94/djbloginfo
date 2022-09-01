@@ -23,21 +23,21 @@
      
       <div class="col-lg-4">
        <img src="/static/bootstrap/assets/images/logo2.png" class="rounded-circle" width="360" height="340" >
-        <h2 class="fw-normal">Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <h2 class="fw-normal">Nuestra Historia</h2>
+        <p>Conoce un poco más de nuestras Efemérides más importantes</p>
+        <p><a class="btn btn-success" href="/blog/5">Ver en detalle &raquo;</a></p>
       </div>
       <div class="col-lg-4">
-        <img src="/static/bootstrap/assets/images/logo2.png" class="rounded-circle" width="360" height="340" >
-         <h2 class="fw-normal">Heading</h2>
-         <p>And lastly this, the third column of representative placeholder content.</p>
-         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <img src="/static/bootstrap/assets/images/abstract-blur-supermarket-and-retail-store.jpg" class="rounded-circle" width="360" height="340" >
+         <h2 class="fw-normal">Otro Post represantivo</h2>
+         <p>Detalles del post.</p>
+         <p><a class="btn btn-success" href="/blog/6">Ver en detalle &raquo;</a></p>
        </div>
        <div class="col-lg-4">
-        <img src="/static/bootstrap/assets/images/logo2.png" class="rounded-circle" width="360" height="340" >
-         <h2 class="fw-normal">Heading</h2>
-         <p>And lastly this, the third column of representative placeholder content.</p>
-         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <img src="/static/bootstrap/assets/images/close-up-of-executive-pointing-to-graph.jpg" class="rounded-circle" width="360" height="340" >
+         <h2 class="fw-normal">Post interesante</h2>
+         <p>Detalles del post</p>
+         <p><a class="btn btn-success" href="/blog/7">Ver en detalle &raquo;</a></p>
        </div>
     </div>
    
@@ -48,10 +48,13 @@
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
+    <h2 class="fw-normal text-center">Ultimas Novedades</h2>
+    <br><br>
+    
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="fw-normal">Ultimas Novedades</h2>
+        
         <h2 class="featurette-heading fw-normal lh-1">{{Post.title}}<span class="text-muted"></span></h2>
         <p class="lead">{{Post.content| truncatewords:60}}</p>
         <p><a class="btn btn-primary" href="{% url 'post_detail' Post.id %}">Seguir Leyendo &raquo;</a></p>
@@ -67,8 +70,8 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Noticia Destacada <span class="text-muted"></span></h2>
+        <p class="lead">Detalle de la noticia.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at tincidunt tellus. Phasellus sit amet velit in mauris sodales dictum. Vivamus lacinia malesuada tempus.  </p>
       </div>
       <div class="col-md-5 order-md-1">
         
@@ -79,8 +82,8 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Otra Noticia Destacada. <span class="text-muted"></span></h2>
+        <p class="lead">Detalle de la noticia.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at tincidunt tellus. Phasellus sit amet velit in mauris sodales dictum. Vivamus lacinia malesuada tempus.</p>
       </div>
       <div class="col-md-5">
       
